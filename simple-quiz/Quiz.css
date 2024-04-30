@@ -1,0 +1,98 @@
+h1{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+
+
+ .mark{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+.markInp{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    width: 50px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+.next{
+    position: absolute;
+    top: 250px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    left: 200px;
+    cursor: pointer;
+}
+
+.quizQuestion10{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: silver;
+    left: 400px;
+    top: 150px;
+    border-radius: 20px;
+}
+.question{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 1em;
+}
+.quizQuestion10 .answer{
+    display: block;
+    position: relative;
+    top: 90px;
+    left: 40px;
+    height: 30px;
+    width: 400px;
+    border-radius: 20px;
+    padding-left: 10px;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+
+}
+.correctAnswer{
+    background-color: greenyellow;
+}
+.wrongAnswer{
+    background-color: rgb(236, 25, 5); 
+}
+.quizResult{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: silver;
+    left: 400px;
+    top: 150px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+    border-radius: 20px;
+}
+.resultInput{
+    position: relative;
+    top: 50px;
+}
+.quizResult span{
+    position: relative;
+    top: 50px;
+}
